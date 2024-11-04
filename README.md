@@ -97,3 +97,11 @@ ORDER BY SalesPercentage DESC;
 
 
 ![project 1 dashboard](https://github.com/user-attachments/assets/a0fbdb93-7d75-46c7-839a-d24cb83b74ec)
+
+![sales report2](https://github.com/user-attachments/assets/eaff0169-aea3-4469-a520-8642fc90bdeb)
+
+![sales_chart3](https://github.com/user-attachments/assets/af9e92f3-7c4c-4a88-bd22-eb6b33cc7816)
+
+
+
+
