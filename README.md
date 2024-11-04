@@ -25,6 +25,6 @@ o	Sales data was summarized by month, allowing for the identification of seasona
 This analysis highlights crucial sales insights that can drive strategic decision-making for product offerings, regional focus, and marketing timing. The use of Excel pivot tables provided a streamlined approach for data summarization, enabling a clear view of trends and performance metrics.
 
 ### Charts Representation
-
+[Sales Chart](https://github.com/VictoriaUmoh/LITA_Capstone_Project/blob/main/sales%20chart.png)
 
 
