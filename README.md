@@ -95,7 +95,6 @@ ORDER BY SalesPercentage DESC;
 ### Charts Representation
 ![Sales Chart](https://github.com/VictoriaUmoh/LITA_Capstone_Project/blob/main/sales%20chart.png)   
 
-
 ![project 1 dashboard](https://github.com/user-attachments/assets/a0fbdb93-7d75-46c7-839a-d24cb83b74ec)
 
 ![sales report2](https://github.com/user-attachments/assets/eaff0169-aea3-4469-a520-8642fc90bdeb)
@@ -103,5 +102,6 @@ ORDER BY SalesPercentage DESC;
 ![sales_chart3](https://github.com/user-attachments/assets/af9e92f3-7c4c-4a88-bd22-eb6b33cc7816)
 
 
+![project 1 dashboard](https://github.com/user-attachments/assets/9cf610ae-9a10-4a17-8601-32b852f17a8c)
 
 
