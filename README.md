@@ -1,6 +1,6 @@
 # LITA_Capstone_Project_1
 This project reflects the knowledge I gained studying Data Analysis with the IncubatorHub- LITA on the tools we were taught, including Excel, SQL and Power BI. This is Project1
-
+---
 ## Sales Analysis Report
 
 ### Overview
@@ -91,7 +91,7 @@ FROM project1
 GROUP BY Region
 ORDER BY SalesPercentage DESC;
 ```
-
+---
 ### Charts Representation
 #### Sales Dashboard [View Here](https://ibb.co/s90PKQN)
 
@@ -109,6 +109,6 @@ ORDER BY SalesPercentage DESC;
 
 ![sales_chart3](https://github.com/user-attachments/assets/af9e92f3-7c4c-4a88-bd22-eb6b33cc7816)
 
-
-
-
+---
+# LITA_Capstone_Project_2
+This project reflects the knowledge I gained studying Data Analysis with the IncubatorHub- LITA on the tools we were taught, including Excel, SQL and Power BI. This is Project1
