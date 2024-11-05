@@ -93,6 +93,8 @@ ORDER BY SalesPercentage DESC;
 ```
 
 ### Charts Representation
+Sales Dashboard [View Here](https://ibb.co/s90PKQN)
+
 ![Sales Chart](https://github.com/VictoriaUmoh/LITA_Capstone_Project/blob/main/sales%20chart.png)   
 
 ![project 1 dashboard](https://github.com/user-attachments/assets/a0fbdb93-7d75-46c7-839a-d24cb83b74ec)
