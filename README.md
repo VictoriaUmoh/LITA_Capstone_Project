@@ -101,20 +101,10 @@ ORDER BY SalesPercentage DESC;
 
 
 
-![Sales Chart](https://github.com/VictoriaUmoh/LITA_Capstone_Project/blob/main/sales%20chart.png)   
-
-![project 1 dashboard](https://github.com/user-attachments/assets/a0fbdb93-7d75-46c7-839a-d24cb83b74ec)
-
-![sales report2](https://github.com/user-attachments/assets/eaff0169-aea3-4469-a520-8642fc90bdeb)
-
-![sales_chart3](https://github.com/user-attachments/assets/af9e92f3-7c4c-4a88-bd22-eb6b33cc7816)
-
 ---
-# LITA_Capstone_Project_2
-This project reflects the knowledge I gained studying Data Analysis with the IncubatorHub- LITA on the tools we were taught, including Excel, SQL and Power BI. This is Project1
+# LITA_Capstone_Project_2: Customer Data Analysis Report
+This project focuses on custome Data
 
-
-## Customer Data Analysis Report
 ### Project Overview
 ---
 This project analyzes a customer dataset sourced from Kaggle (given by The IncubatorHub Instructor) , focusing on insights around subscription types, customer demographics, and revenue. Using pivot tables in Excel, SQL queries, and Power BI, the analysis dives into various metrics such as customer distribution by region, subscription patterns, and revenue performance. This report details the methodology, tools, and findings from each stage of the analysis.
@@ -123,7 +113,7 @@ This project analyzes a customer dataset sourced from Kaggle (given by The Incub
 1.	SQL: For data extraction and complex queries.
 2.	Excel Pivot Tables: To quickly summarize data and identify trends.
 3.	Power BI: For data visualization and creating an interactive dashboard.
-   
+---
 ### Data Overview
 The dataset includes information about customers, their subscription types, start and end dates, revenue, and regional distribution. Key columns in the dataset are:
 -	CustomerID: Unique identifier for each customer.
@@ -133,6 +123,7 @@ The dataset includes information about customers, their subscription types, star
 -	SubscriptionStart and SubscriptionEnd: Subscription period.
 -	Canceled: Whether the subscription was canceled (1 for canceled, 0 for active).
 -	Revenue: Total revenue generated from each customer.
+---
 
 ### Analysis Breakdown
 1. Total Customers by Region
@@ -144,30 +135,65 @@ FROM customer_data
 GROUP BY Region
 ORDER BY TotalCustomers DESC;
 ```
-
 #### Key Insight:
 Regions with the highest customer counts provide opportunities for targeted marketing and retention strategies.
-
-3. Most Popular Subscription Type
-By analyzing the number of customers per subscription type using a pivot table and SQL, I identified the most popular subscription.
-sql
-
-SELECT TOP 1 SubscriptionType, COUNT(CustomerID) AS CustomerCount
-FROM customer_data
-GROUP BY SubscriptionType
-ORDER BY CustomerCount DESC;
-Key Insight:
-This information highlights which subscription types are most appealing, guiding future subscription options.
 
 ### Visualizations in Power BI
 In Power BI, I created several visualizations to bring the analysis to life:
 -	Regional Distribution of Customers: A map visualization showing customer density across regions.
 -	Subscription Cancellations: A bar chart comparing cancellations by region.
 -	Revenue by Subscription Type: A pie chart breaking down revenue contribution by subscription type.
-
+---
 These visualizations provide an interactive and visual overview, enabling stakeholders to easily interpret and explore the data.
 ### Dashboard Analysis [View Here](https://ibb.co/Wc0mPjP)
 
 ### Conclusion
 The analysis offers actionable insights into customer demographics, subscription preferences, and revenue trends. By using a combination of SQL, pivot tables, and Power BI, I was able to generate a comprehensive view of the customer data, highlighting opportunities to increase revenue and improve retention.
+
+### Visualization Overview:
+
+```sql
+---Query: Retrieve the total number of customers from each region---
+SELECT Region, COUNT(CustomerID) AS TotalCustomers
+FROM customer_data
+GROUP BY Region
+ORDER BY TotalCustomers DESC;
+```
+
+```sql
+---Query: Find the most popular subscription type by the number of customers---
+SELECT TOP 1 SubscriptionType, COUNT(CustomerID) AS CustomerCount
+FROM customer_data
+GROUP BY SubscriptionType
+ORDER BY CustomerCount DESC;
+```
+
+```sql
+ ---Query: Calculate total revenue by subscription type---
+ SELECT subscriptionType, SUM(Revenue) As TotalRevenue
+ FROM customer_data
+ GROUP BY SubscriptionType
+ ORDER BY TotalRevenue DESC;
+```
+
+```sql
+---Query: Find the top 3 regions by subscription cancellations---
+SELECT TOP 3 Region, COUNT(CustomerID) AS Cancellations
+FROM customer_data
+WHERE Canceled = 1
+GROUP BY Region
+ORDER BY Cancellations DESC;
+```
+
+```sql
+---Query: Find the total number of active and canceled subscriptions---
+SELECT 
+    SUM(CASE WHEN Canceled = 0 THEN 1 ELSE 0 END) AS ActiveSubscriptions,
+    SUM(CASE WHEN Canceled = 1 THEN 1 ELSE 0 END) AS CanceledSubscriptions
+FROM customer_data;
+```
+
+### Pivot Table Analysis [View Here](https://ibb.co/PrDvRYr)
+
+### Power BI Dashboard [View Here](https://ibb.co/Wc0mPjP)
 
