@@ -112,3 +112,62 @@ ORDER BY SalesPercentage DESC;
 ---
 # LITA_Capstone_Project_2
 This project reflects the knowledge I gained studying Data Analysis with the IncubatorHub- LITA on the tools we were taught, including Excel, SQL and Power BI. This is Project1
+
+
+## Customer Data Analysis Report
+### Project Overview
+---
+This project analyzes a customer dataset sourced from Kaggle (given by The IncubatorHub Instructor) , focusing on insights around subscription types, customer demographics, and revenue. Using pivot tables in Excel, SQL queries, and Power BI, the analysis dives into various metrics such as customer distribution by region, subscription patterns, and revenue performance. This report details the methodology, tools, and findings from each stage of the analysis.
+
+### Tools Used
+1.	SQL: For data extraction and complex queries.
+2.	Excel Pivot Tables: To quickly summarize data and identify trends.
+3.	Power BI: For data visualization and creating an interactive dashboard.
+   
+### Data Overview
+The dataset includes information about customers, their subscription types, start and end dates, revenue, and regional distribution. Key columns in the dataset are:
+-	CustomerID: Unique identifier for each customer.
+-	CustomerName: Name of the customer.
+-	Region: Geographic region of the customer.
+-	SubscriptionType: Type of subscription purchased.
+-	SubscriptionStart and SubscriptionEnd: Subscription period.
+-	Canceled: Whether the subscription was canceled (1 for canceled, 0 for active).
+-	Revenue: Total revenue generated from each customer.
+
+### Analysis Breakdown
+1. Total Customers by Region
+Using a pivot table, I summarized the total number of customers in each region to understand where our customer base is concentrated. SQL was also used to retrieve this information:
+
+```sql
+SELECT Region, COUNT(CustomerID) AS TotalCustomers
+FROM customer_data
+GROUP BY Region
+ORDER BY TotalCustomers DESC;
+```
+
+#### Key Insight:
+Regions with the highest customer counts provide opportunities for targeted marketing and retention strategies.
+
+3. Most Popular Subscription Type
+By analyzing the number of customers per subscription type using a pivot table and SQL, I identified the most popular subscription.
+sql
+
+SELECT TOP 1 SubscriptionType, COUNT(CustomerID) AS CustomerCount
+FROM customer_data
+GROUP BY SubscriptionType
+ORDER BY CustomerCount DESC;
+Key Insight:
+This information highlights which subscription types are most appealing, guiding future subscription options.
+
+### Visualizations in Power BI
+In Power BI, I created several visualizations to bring the analysis to life:
+-	Regional Distribution of Customers: A map visualization showing customer density across regions.
+-	Subscription Cancellations: A bar chart comparing cancellations by region.
+-	Revenue by Subscription Type: A pie chart breaking down revenue contribution by subscription type.
+
+These visualizations provide an interactive and visual overview, enabling stakeholders to easily interpret and explore the data.
+### Dashboard Analysis [View Here](https://ibb.co/Wc0mPjP)
+
+### Conclusion
+The analysis offers actionable insights into customer demographics, subscription preferences, and revenue trends. By using a combination of SQL, pivot tables, and Power BI, I was able to generate a comprehensive view of the customer data, highlighting opportunities to increase revenue and improve retention.
+
