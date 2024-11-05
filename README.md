@@ -143,15 +143,16 @@ ORDER BY TotalCustomers DESC;
 #### Key Insight:
 Regions with the highest customer counts provide opportunities for targeted marketing and retention strategies.
 
+---
 ### Visualizations in Power BI
 In Power BI, I created several visualizations to bring the analysis to life:
 -	Regional Distribution of Customers: A map visualization showing customer density across regions.
 -	Subscription Cancellations: A bar chart comparing cancellations by region.
 -	Revenue by Subscription Type: A pie chart breaking down revenue contribution by subscription type.
----
+
 These visualizations provide an interactive and visual overview, enabling stakeholders to easily interpret and explore the data.
 ### Dashboard Analysis [View Here](https://ibb.co/Wc0mPjP)
-
+---
 ### Conclusion
 The analysis offers actionable insights into customer demographics, subscription preferences, and revenue trends. By using a combination of SQL, pivot tables, and Power BI, I was able to generate a comprehensive view of the customer data, highlighting opportunities to increase revenue and improve retention.
 
