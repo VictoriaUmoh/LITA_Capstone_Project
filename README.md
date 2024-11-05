@@ -108,10 +108,7 @@ ORDER BY SalesPercentage DESC;
 # LITA_Capstone_Project_2: Customer Data Analysis Report
 This project focuses on custome Data
 ### Contents:
-[Project Overview](#project-overview) | [Tools Used](#tools-used) | [Data Overview](#data-overview) | [Analysis Breakdown](#analysis-breakdown) | 
-[Visualizations in Power BI](#visualizations-in-power-bi)
-
-[Conclusion](#conclusion) | [Visualization Overview](#visualization-overview)
+[Project Overview](#project-overview) | [Tools Used](#tools-used) | [Data Overview](#data-overview) | [Analysis Breakdown](#analysis-breakdown) | [Visualizations in Power BI](#visualizations-in-power-bi) | [Conclusion](#conclusion) | [Visualization Overview](#visualization-overview)
 
 ### Project Overview
 ---
