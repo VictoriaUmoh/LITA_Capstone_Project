@@ -12,6 +12,7 @@ Pivot tables in Excel were utilized to aggregate and organize the data by:
 -	Region: Summing total sales by each region to identify regional trends.
 -	Month: Breaking down sales by month to observe seasonal or monthly patterns in sales.
 The above indicators were considered in order to write queries for the database and to create dashboard report with Power BI
+---
 #### Key Findings:
 1.	Total Sales by Product:
 - Each product's total sales were summarized, revealing which products performed best. Products with consistently high sales suggest strong demand and popularity.
@@ -21,7 +22,7 @@ The above indicators were considered in order to write queries for the database 
 -	Sales were grouped by region to uncover which areas generated the most revenue. This information can guide regional marketing and distribution strategies to optimize sales in high-performing regions.
 4.	Monthly Sales Trends:
 -	Sales data was summarized by month, allowing for the identification of seasonal trends or peak sales periods. This insight can aid in inventory planning and promotional scheduling.
-
+---
 ### Conclusion
 This analysis highlights crucial sales insights that can drive strategic decision-making for product offerings, regional focus, and marketing timing. The use of Excel pivot tables provided a streamlined approach for data summarization, enabling a clear view of trends and performance metrics.
 
