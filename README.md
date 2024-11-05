@@ -3,15 +3,7 @@ This project reflects the knowledge I gained studying Data Analysis with the Inc
 ---
 ## Sales Analysis Report
 ### Contents
-[Methodology](#methodology)
-
-[Project Overview](#project-overview)
-
-[Key Findings](#key-findings)
-
-[Conclusion](#conclusion)
-
-[SQL Queries](#sql-queries)
+[Methodology](#methodology) | [Project Overview](#project-overview) | [Key Findings](#key-findings) | [Conclusion](#conclusion) | [SQL Queries](#sql-queries)
 
 ### Project Overview
 This analysis report summarizes the findings from a sales dataset sourced from Kaggle (sent by the LITA- The IncubatorHub resource instructor). The objective was to derive key insights from the data using Excel pivot tables, SQL and Power BI specifically focusing on total sales, average sales per product, and revenue across different regions and months.
@@ -116,19 +108,10 @@ ORDER BY SalesPercentage DESC;
 # LITA_Capstone_Project_2: Customer Data Analysis Report
 This project focuses on custome Data
 ### Contents:
-[Project Overview](#project-overview)
-
-[Tools Used](#tools-used)
-
-[Data Overview](#data-overview)
-
-[Analysis Breakdown](#analysis-breakdown)
-
+[Project Overview](#project-overview) | [Tools Used](#tools-used) | [Data Overview](#data-overview) | [Analysis Breakdown](#analysis-breakdown) | 
 [Visualizations in Power BI](#visualizations-in-power-bi)
 
-[Conclusion](#conclusion)
-
-[Visualization Overview](#visualization-overview)
+[Conclusion](#conclusion) | [Visualization Overview](#visualization-overview)
 
 ### Project Overview
 ---
