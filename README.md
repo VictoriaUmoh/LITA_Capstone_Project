@@ -93,7 +93,13 @@ ORDER BY SalesPercentage DESC;
 ```
 
 ### Charts Representation
-Sales Dashboard [View Here](https://ibb.co/s90PKQN)
+#### Sales Dashboard [View Here](https://ibb.co/s90PKQN)
+
+#### Pivot Sales Analysis [View Here](https://ibb.co/B6NPT1t)
+
+#### Sales Chart [View Here](https://ibb.co/9VZ3Prx)
+
+
 
 ![Sales Chart](https://github.com/VictoriaUmoh/LITA_Capstone_Project/blob/main/sales%20chart.png)   
 
@@ -104,6 +110,5 @@ Sales Dashboard [View Here](https://ibb.co/s90PKQN)
 ![sales_chart3](https://github.com/user-attachments/assets/af9e92f3-7c4c-4a88-bd22-eb6b33cc7816)
 
 
-![project 1 dashboard](https://github.com/user-attachments/assets/9cf610ae-9a10-4a17-8601-32b852f17a8c)
 
 
