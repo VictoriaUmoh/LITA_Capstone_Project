@@ -2,8 +2,18 @@
 This project reflects the knowledge I gained studying Data Analysis with the IncubatorHub- LITA on the tools we were taught, including Excel, SQL and Power BI. This is Project1
 ---
 ## Sales Analysis Report
+#### Contents
+[Methodology](#methodology)
 
-### Overview
+[Project Overview](#project-overview)
+
+[Key Findings](#key-findings)
+
+[Conclusion](#conclusion)
+
+[SQL Queries](#sql-queries)
+
+### Project Overview
 This analysis report summarizes the findings from a sales dataset sourced from Kaggle (sent by the LITA- The IncubatorHub resource instructor). The objective was to derive key insights from the data using Excel pivot tables, SQL and Power BI specifically focusing on total sales, average sales per product, and revenue across different regions and months.
 
 ### Methodology
